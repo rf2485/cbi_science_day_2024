@@ -11,6 +11,7 @@ Running this code requires the following dependencies:
 - Matlab >= R2023a with the following toolboxes:
   - Imaging
   - Statistics and Machine Learning
+
 Scripts with .sbatch extensions are written for submission to a SLURM batch processing system on an HPC. It is highly recommended to conduct this analysis on an HPC. Scripts with .sh extensions are written for Mate Desktop and can be run with either bash or zsh. QC scripts are not necessary for replicating these results but are highly recommended if you would like to repeat the analysis in another dataset.
 
 Run each numbered script in order. Unnumbered scripts are called by the numbered scripts and do not need to be called manually. Wait until the script finishes before starting the next numbered script.
