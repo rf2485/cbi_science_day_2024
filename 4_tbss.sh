@@ -1,5 +1,5 @@
 basedir=/gpfs/data/lazarlab/CamCan995/
-projectdir=$basedir/derivatives/designer_tbss/
+projectdir=$basedir/derivatives/cbi_science_day_2024/
 
 module load miniconda3/gpu/4.9.2
 source activate ~/.conda/envs/fsl_eddy/

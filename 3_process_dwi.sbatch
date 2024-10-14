@@ -11,7 +11,7 @@
 #SBATCH -o ./slurm_output/3_process_dwi/slurm-%A_%a.out
 
 basedir=/gpfs/data/lazarlab/CamCan995/
-projectdir=$basedir/derivatives/designer_tbss/
+projectdir=$basedir/derivatives/cbi_science_day_2024/
 
 subj_list=$(cut -f1 -d$'\t' $projectdir/dwi_over_55.tsv)
 subj_list=($subj_list)
